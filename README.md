@@ -45,6 +45,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser -Force
 | **Teams**      | Bulk add users to a private channel in a Microsoft Team using a CSV of UPNs.  | [View Script](Teams/Teams_Add-Users-To-PrivateChannel.ps1) |
 | **Exchange**      | Generates a detailed report of all Shared Mailboxes in Exchange Online, including last activity (sent/received), delegation rights (Full Access, SendAs), and access information. Helps identify inactive or mismanaged shared mailboxes for cleanup or auditing.  | [View Script](https://github.com/gelndjj/_EXCHANGE_SMBsReport-) |
 | **EntraID**      | Exports all users from Microsoft Entra ID with comprehensive attributes including MFA methods, license assignments, privileged roles, hybrid sync status, and Immutable ID. Ideal for audits, migrations, and identity cleanup.  | [View Script](https://github.com/gelndjj/_ENTRA_UserReport) |
+| **EntraID**      | Exports all Entra ID groups with metadata, Teams linkage, owners, roles, CA policies, and app role usage.  | [View Script](https://github.com/gelndjj/_ENTRA_GroupReport) |
 | **Intune**      | Collect AutoPilot hardware hash and save the CSV to a selected location  | [View Script](https://github.com/gelndjj/_INTUNE_Autopilot) |
 
 ---
