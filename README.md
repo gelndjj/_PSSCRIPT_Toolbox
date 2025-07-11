@@ -66,7 +66,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser -Force
       <td>Exports a fast batched report of all Microsoft Teams with channel types, owners, member counts, and team settings. Ideal for audits and governance.</td>
       <td><a href="https://github.com/gelndjj/_TEAMS_OverviewReport">Yes</a></td>
       <td><a href="Teams/Teams_Overview_Report.ps1">View Script</a></td>
-      <td>View Template</td>
+      <td>No</td>
     </tr>
     <tr>
       <td><strong>Exchange</strong></td>
@@ -74,7 +74,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser -Force
       <td>Generates a detailed report of all Shared Mailboxes in Exchange Online, including last activity (sent/received), delegation rights (Full Access, SendAs), and access information. Helps identify inactive or mismanaged shared mailboxes for cleanup or auditing.</td>
       <td><a href="https://github.com/gelndjj/_EXCHANGE_SMBsReport">Yes</a></td>
       <td><a href="https://github.com/gelndjj/_EXCHANGE_SMBsReport/blob/main/ExchangeSharedMailboxAudit.ps1">View Script</a></td>
-      <td>No</td>
+      <td><a href="https://github.com/gelndjj/_EXCHANGE_SMBsReport/blob/main/Runbook_Template-SharedMailboxes-Report.ps1">View Template</a></td>
     </tr>
     <tr>
       <td><strong>Exchange</strong></td>
@@ -82,7 +82,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser -Force
       <td>Manage Dynamic DLs in Exchange Online: generate full recipient filter reports, update filters in bulk, and preview matching members via dry run. Ideal for cleanups, audits, and bulk filter management.</td>
       <td><a href="https://github.com/gelndjj/_EXCHANGE_DDLsFilterUpdate">Yes</a></td>
       <td><a href="https://github.com/gelndjj/_EXCHANGE_DDLsFilterUpdate/blob/main/DynamicDL_Updater.ps1">View Script</a></td>
-      <td>View Template</td>
+      <td><a href="https://github.com/gelndjj/_EXCHANGE_DDLsFilterUpdate/blob/main/Runbook_Template-DDL_Report.ps1">View Template</a></td>
     </tr>
     <tr>
       <td><strong>EntraID</strong></td>
@@ -90,7 +90,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser -Force
       <td>Exports all users from Microsoft Entra ID with comprehensive attributes including MFA methods, license assignments, privileged roles, hybrid sync status, and Immutable ID. Ideal for audits, migrations, and identity cleanup.</td>
       <td><a href="https://github.com/gelndjj/_ENTRA_UserReport">Yes</a></td>
       <td><a href="https://github.com/gelndjj/_ENTRA_UserReport/blob/main/export_entraid_usrs.ps1">View Script</a></td>
-      <td>View Template</td>
+      <td>No</td>
     </tr>
     <tr>
       <td><strong>EntraID</strong></td>
